@@ -1,0 +1,17 @@
+/*galeria*/
+.imagen {
+    width: 100%; }
+  
+  .imagen img {
+    width: 100%; }
+  
+  .galeria {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8px;
+    row-gap: 8px; }
+  
+  .titulo-gale {
+    color: $color-principal; }

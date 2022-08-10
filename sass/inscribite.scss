@@ -1,0 +1,41 @@
+/*inscribite*/
+.registro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(228, 191, 27, 0.3)), url(../imagen/1234.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center; }
+  
+  .registro h1 {
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: $color-principal;
+    border-bottom: 4.8px solid $color-principal;
+    margin-bottom: 35.2px; }
+  
+  .registro form {
+    padding: 2% 6%;
+    margin: 0 auto; }
+  
+  .registro form .input_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  
+  .registro form .input_box input, textarea {
+    height: 64px;
+    width: 49%;
+    background-color: transparent;
+    color: $color-principal;
+    padding: 48px 16px;
+    margin: 16px 0;
+    font-size: 32px;
+    border: 1px solid $color-principal; }
+  
+  .registro form textarea {
+    height: 320px;
+    width: 100%;
+    resize: none;
+    padding: 16px; }

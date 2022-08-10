@@ -1,0 +1,8 @@
+@mixin flex($jcontent, $bcolor, $pdd){
+    display: flex;
+    justify-content: $jcontent;
+    background-color: $bcolor;
+    padding: $pdd;
+    position: static;
+    top: 0px; 
+}

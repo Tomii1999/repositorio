@@ -1,0 +1,83 @@
+/*informacion*/
+section {
+  width: 100%;
+  margin-bottom: 25px; 
+}
+ 
+#blog h3 {
+  text-align: center;
+  background-color: $color-principal; 
+}
+  
+.formacion {
+  background-color: $color-principal;
+  width: 100%;
+  color: $color-secundario;
+  font-size: 24px; 
+}
+
+
+  
+  #blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  
+  #blog article {
+    margin: 15px; }
+  
+  #blog img {
+    width: 100%;
+    max-width: 280px; }
+  
+  #info {
+    background: #333;
+    color: #fff;
+    text-align: center; }
+  
+  #info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  
+  .info-ent {
+    margin: 20px; }
+  
+  .info-ent img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff; }
+  
+  .bienvenidos {
+    padding: 2%;
+    background-color: $color-secundario;
+    color: $color-principal;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  
+  .formacion {
+    background-color: $color-principal;
+    text-align: center; }
+  
+  .descripcion {
+    background-color: $color-secundario;
+    color: $color-principal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: contents; }
+  
+  .mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+  
+  h4 {
+    text-align: center;
+    font-size: 32px; }
+  
+  .ubicacion {
+    color: $color-principal;
+    text-align: center; }

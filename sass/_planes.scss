@@ -1,0 +1,59 @@
+/*planes*/
+.servicios {
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%; }
+  
+  .servicios h1 {
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: $color-principal;
+    border-bottom: 4.8px solid $color-principal;
+    margin-bottom: 28.8px; }
+  
+  .servicios .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap; }
+  
+  .servicios .container .box {
+    width: 496px;
+    height: 496px;
+    margin: 8px;
+    position: relative;
+    overflow: hidden; }
+  
+  .servicios .container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  
+  .servicios .container .box .plan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transform-origin: bottom;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  
+  .servicios .container .box:hover .plan {
+    transform: translate(-50%, -50%) scale(1); }
+  
+  .servicios .container .box .plan p {
+    line-height: 2;
+    color: #fff;
+    font-size: 17.6px;
+    padding: 1.6px;
+    margin-bottom: 1.2rem; }
+  
+  h3 {
+    color: $color-principal; }

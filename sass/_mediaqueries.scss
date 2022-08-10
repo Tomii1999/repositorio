@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    header {
+      width: 100%;
+      flex-direction: row-reverse; }
+    .logo__img {
+      height: 60px; }
+    .intro p {
+      width: 80px;
+      font-size: 18px; }
+    .intro h2 {
+      font-size: 20px; }
+    .subtitulo {
+      font-size: 13px;
+    }
+    .subtitulo2{
+      font-size: 12px;
+    } }

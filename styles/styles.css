@@ -31,7 +31,7 @@ ul {
 ul li a {
   color: #000000;
   margin: 30px;
-  font-size: 2rem;
+  font-size: 32px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none; }
 
@@ -95,7 +95,7 @@ ul li a {
   font-size: 50px; }
 
 .intro .btn {
-  margin-top: 2rem;
+  margin-top: 32px;
   font-size: 50px;
   color: #000000;
   background-color: #ffde59; }
@@ -136,8 +136,8 @@ ul li a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: .5rem;
-  row-gap: .5rem; }
+  column-gap: 8px;
+  row-gap: 8px; }
 
 .titulo-gale {
   color: #ffde59; }
@@ -154,8 +154,8 @@ section {
 .formacion {
   background-color: #ffde59;
   width: 100%;
-  color: #070707;
-  font-size: 1.5rem; }
+  color: #000000;
+  font-size: 24px; }
 
 #blog .contenedor {
   display: flex;
@@ -189,6 +189,7 @@ section {
   border: 7px solid #fff; }
 
 .bienvenidos {
+  padding: 2%;
   background-color: #000000;
   color: #ffde59;
   text-align: center;
@@ -202,62 +203,22 @@ section {
   background-color: #000000;
   color: #ffde59;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   text-align: center;
   display: contents; }
 
 .mapa {
-  right: 50%; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 h4 {
   text-align: center;
-  font-size: 2rem; }
+  font-size: 32px; }
 
 .ubicacion {
   color: #ffde59;
   text-align: center; }
-
-/*inscribite*/
-.registro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(228, 191, 27, 0.3)), url(../imagen/1234.jpg);
-  min-height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  text-align: center; }
-
-.registro h1 {
-  font-size: 3.8rem;
-  padding: 0.5rem;
-  display: inline-block;
-  color: #ffde59;
-  border-bottom: 0.3rem solid #ffde59;
-  margin-bottom: 2.2rem; }
-
-.registro form {
-  padding: 2% 6%;
-  margin: 0 auto; }
-
-.registro form .input_box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-
-.registro form .input_box input, textarea {
-  height: 4rem;
-  width: 49%;
-  background-color: transparent;
-  color: #ffde59;
-  padding: 3rem 1rem;
-  margin: 1rem 0;
-  font-size: 2rem;
-  border: 1px solid #ffde59; }
-
-.registro form textarea {
-  height: 20rem;
-  width: 100%;
-  resize: none;
-  padding: 1rem; }
 
 /*planes*/
 .servicios {
@@ -266,12 +227,12 @@ h4 {
   padding: 2% 6%; }
 
 .servicios h1 {
-  font-size: 3.8rem;
-  padding: 0.5rem;
+  font-size: 60.8px;
+  padding: 8px;
   display: inline-block;
   color: #ffde59;
-  border-bottom: .3rem solid #ffde59;
-  margin-bottom: 1.8rem; }
+  border-bottom: 4.8px solid #ffde59;
+  margin-bottom: 28.8px; }
 
 .servicios .container {
   display: flex;
@@ -281,9 +242,9 @@ h4 {
   flex-wrap: wrap; }
 
 .servicios .container .box {
-  width: 31rem;
-  height: 31rem;
-  margin: .5rem;
+  width: 496px;
+  height: 496px;
+  margin: 8px;
   position: relative;
   overflow: hidden; }
 
@@ -312,12 +273,54 @@ h4 {
 .servicios .container .box .plan p {
   line-height: 2;
   color: #fff;
-  font-size: 1.1rem;
-  padding: 0 1rem;
+  font-size: 17.6px;
+  padding: 1.6px;
   margin-bottom: 1.2rem; }
 
 h3 {
   color: #ffde59; }
+
+/*inscribite*/
+.registro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(228, 191, 27, 0.3)), url(../imagen/1234.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+
+.registro h1 {
+  font-size: 60.8px;
+  padding: 8px;
+  display: inline-block;
+  color: #ffde59;
+  border-bottom: 4.8px solid #ffde59;
+  margin-bottom: 35.2px; }
+
+.registro form {
+  padding: 2% 6%;
+  margin: 0 auto; }
+
+.registro form .input_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.registro form .input_box input, textarea {
+  height: 64px;
+  width: 49%;
+  background-color: transparent;
+  color: #ffde59;
+  padding: 48px 16px;
+  margin: 16px 0;
+  font-size: 32px;
+  border: 1px solid #ffde59; }
+
+.registro form textarea {
+  height: 320px;
+  width: 100%;
+  resize: none;
+  padding: 16px; }
 
 @media (max-width: 768px) {
   header {
@@ -325,8 +328,12 @@ h3 {
     flex-direction: row-reverse; }
   .logo__img {
     height: 60px; }
-  p {
+  .intro p {
     width: 80px;
-    font-size: 14px; }
+    font-size: 18px; }
   .intro h2 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .subtitulo {
+    font-size: 13px; }
+  .subtitulo2 {
+    font-size: 12px; } }
